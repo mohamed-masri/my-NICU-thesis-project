@@ -19,8 +19,7 @@ The device is designed specifically to support caregivers at home following an i
 ## 🛠️ System Architecture & Hardware Stack
 The project features a decentralized, dual-microcontroller architecture to isolate real-time data streaming from safety-critical alarm processing:
 
-* **Data Acquisition Node (ESP32):** Interfaces with the biomedical sensor cluster via I2C/Analog and transmits packets wirelessly.
-* **Main System Controller (STM32):** Receives data packages, executes precise threshold-checking logic, and manages emergency notification routines.
+* **Main System Controller (ESP32):** Receives data packages, executes precise threshold-checking logic, and manages emergency notification routines.
 * **AD8232 ECG Module:** Utilizes a standard 3-electrode configuration (RA, LA, RL) for primary cardiac monitoring and heart rate estimation.
 * **MAX30102 Sensor:** Evaluates photoplethysmography (PPG) waveforms to extract $SpO_2$ percentages and acts as a signal backup for heart rate verification.
 * **MPU6050 IMU:** Tracks respiration-driven movement patterns to classify sleep apnea conditions.
@@ -39,8 +38,7 @@ The system evaluates risk levels by continuously updating and categorizing param
 ---
 
 ## 📂 Repository Layout
-* `/code/esp32_firmware` - Firmware handling the I2C sensor cluster bus, initialization, and wireless data casting.
-* `/code/stm32_firmware` - Control firmware managing logic trees, multi-state alert conditions, and serial output logging.
+* `/code/esp32_firmware` - Control firmware managing logic trees, multi-state alert conditions, and serial output logging.
 * `/thesis` - Contains the final comprehensive academic PDF text (`NICU_Graduation_Thesis.pdf`).
 
 ## 🎓 Academic Credit
