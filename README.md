@@ -2,6 +2,7 @@
 
 This repository contains the full embedded firmware, hardware architecture, and graduation thesis for a low-cost, home-based infant monitoring device designed for the early detection of physiological abnormalities and apnea events.
 
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/6c91dd89-3660-4f54-bfec-dfb53a722ef4" width="400" />
 </p>
