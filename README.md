@@ -1,6 +1,7 @@
 # An Embedded System for SIDS Prevention: Newborns Signals Monitoring (NICU)
 
 This repository contains the full embedded firmware, hardware architecture, and graduation thesis for a low-cost, home-based infant monitoring device designed for the early detection of physiological abnormalities and apnea events.
+
 <img width="2252" height="2960" alt="image" src="https://github.com/user-attachments/assets/6c91dd89-3660-4f54-bfec-dfb53a722ef4" />
 
 
